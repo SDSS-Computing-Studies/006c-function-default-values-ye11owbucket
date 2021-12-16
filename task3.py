@@ -15,8 +15,7 @@ assert title() == "=========\n= Title =\n========="
 
 """
 def title(a="="):
-    b = a + a + a + a + a + a + a
-    x = (b + "\n" + a + "Title" + a + "\n" +b)
+    b = a + a + a + a + a + a + a + a + a
+    x = (b + "\n" + a + " Title " + a + "\n" +b)
     return x
-
 assert title("*") == "*********\n* Title *\n*********"
